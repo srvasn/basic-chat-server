@@ -1,0 +1,21 @@
+[
+    {
+        "username": "david",
+        "password": "ABCD"
+    },
+    {
+        "username": "lucifer",
+        "password": "1234"
+    },
+    {
+        "username": "loki",
+        "password": "WXYZ"
+    },
+    {
+        "username": "odin",
+        "password": "6789"
+    },
+    {
+        "username": "thor",
+        "password": "MNOP"
+    }]
