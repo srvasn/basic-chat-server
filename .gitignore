@@ -94,9 +94,4 @@ ENV/
 
 # Rope project settings
 .ropeproject
-constants.py
-dboperations.py
-requirements.txt
-sim_client.py
-sim_users.json
-tests.py
+
