@@ -29,6 +29,28 @@ Setup :
 
     `telnet <address> <port>`
     
+6. Enter username and password as follows. First time registers you, second onwards logs you in.
+
+    `Enter` 
+    
+    `1. username:password to login or register` 
+    
+    `OR`
+    
+    `2. .quit to exit` 
+    
+    `Input : michael:1234`
+    
+    `Registration successful. Welcome michael` 
+    
+    `1 other users are online`
+    
+    `Enter target_user>message to send a message`
+    
+7. Enter `target>message` to send a message to the target username.
+
+
+    
 * _Default value for < port > is 1236._
  
 * < address > can be localhost if connecting from the same machine.
@@ -41,5 +63,13 @@ After starting the server, run sim_client.py to simulate a number of clients. In
 
 The server creates and uses a SQLite database _(default name is storage.db)_ for storing user information and messages.
 
+**Known limitations**
+
+The following, though easy enough, have not been implemented yet.
+
+1. Changing passwords.
+2. Viewing inbox, sent messages and other views.
+3. Message groups.
+4. Offline messaging.
 
 by _srvasn@gmail.com_
